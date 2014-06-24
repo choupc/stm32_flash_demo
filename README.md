@@ -12,7 +12,9 @@ The printf source code from 《stm32庫開發實踐指南》.
 main
 ==============
 flash在執行初始化的過程中，printf會印出目前正在執行的初始化動作。例如erase sector,flash read/write等等。
+
 LED燈會依不同執行動作而有不同的閃爍變化。
+
 GREEN : FLASH is unlocked.
 BLUE : FLASH is writing.
 RED : FLASH is erasing.
